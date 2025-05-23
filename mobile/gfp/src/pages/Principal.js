@@ -18,10 +18,10 @@ export default function Principal({ navigation }){
         buscarUsuarioLogado();
     }, [])
 
-    const botaoLogout = () => {
-        AsyncStorage.removeItem('UsuarioLogado');
-        navigation.navigate('Login');
-    }
+    // const botaoLogout = () => {
+    //     AsyncStorage.removeItem('UsuarioLogado');
+    //     navigation.navigate('Login');
+    // }
     return(
         <View>
             <View style={{flexDirection: 'row',

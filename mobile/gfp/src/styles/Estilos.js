@@ -6,6 +6,7 @@ export const corPreto = '#222';
 export const corFundo = '#0d0d0d';
 export const corFundo2 = '#262626';
 export const corBorda = '#262626';
+export const corBranco = '#fff';
 
 
 const Estilos = {
@@ -62,6 +63,45 @@ const Estilos = {
         fontSize: 16,
         fontWeight: 'bold',
     },
+    conteudoHeader: {
+        flex: 1,
+        backgroundColor: corSecundaria,
+    },
+    conteudoCorpo:{
+        flex: 1,
+        backgroundColor: corBranco,
+        borderTopLeftRadius: 25,
+        borderTopRightRadius: 25,
+        padding: 15
+    },
+    imagemLista: {
+        width: 35,
+        height: 35,
+        marginRight: 10,
+    },
+    itemLista:{
+        flexDirection: 'row',
+        alignItems: 'center',
+        borderBottomWidth: 1,
+        borderBottomColor: '#ccc',
+        paddingVertical: 7,
+    },
+    textContainer: {
+        flex: 1,
+    },
+    nomeLista: {
+        fontSize: 16,
+        fontWeight: 'bold',
+        color: 'corSecundaria',
+    },
+    inputCad: {
+        marginBottom: 10,
+        borderWidth: 1,
+        borderColor: '#ccc',
+        borderRadius: 5,
+        padding: 10,
+        backgroundColor: '#fff',
+    }
 }
 
 export default Estilos;
